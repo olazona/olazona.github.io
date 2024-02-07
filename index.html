@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="auto">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -16,11 +16,12 @@
 
 <body class="bg-dark text-light">
 
+        <!-- header -->
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-lg">
 
-                <a class="navbar-brand w-25" href="#">
+                <a class="navbar-brand w-25" href="#Home">
                     <img class="w-25" src="img/web.png" alt="">
                 </a>
 
@@ -32,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#myCarousel">Home</a>
+                            <a class="nav-link" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#About">About</a>
@@ -51,15 +52,16 @@
 
         </nav>
     </header>
+        <!-- header -->
 
     <main>
         <!-- Top Slides -->
-        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div id="Home" class="carousel slide mb-6" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#Home" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#Home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#Home" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -88,11 +90,11 @@
                 </div>
 
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#Home" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#Home" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -102,8 +104,8 @@
         <section id="About"></section>
         <hr class="featurette-divider" />
 
-        <!-- About -->
 
+        <!-- About -->
         <div class="container-lg text-center text-md-start">
             <h1 class="fw-bolder text-center mb-4">About Us</h1>
             <p class="lead"><span class="fw-bold">WOXE Consulting Architecture and Engineers</span> Stands for
@@ -121,107 +123,122 @@
 
         <section id="Services"></section>
         <hr class="featurette-divider" />
+        
+        
 
         <!-- Our Services -->
-        <div class="container-lg marketing">
+        <div class="container-lg justify-content-center">
             <h1 class="fw-bolder text-center mb-4">Our Services</h1>
+          <h2 class="text-center mb-3">As a consulting firm we offer comprehensive services like</h2>  
 
-            <div class="row featurette my-sm-3 my-lg-0 ">
-                <div class="col-sm-7 d-flex flex-column align-items-center">
-                    <h2 class="text-center text-md-start featurette-heading fw-bold lh-1">
-                        Topographic Surveying and Master plan design
+            <div class="row text-center my-sm-3 my-lg-0 ">
+                <div class="col-md-6 text-center  mt-4">
+                    <h2 class="text-center fw-bold lh-1">
+                        1.Architectural Design:
                     </h2>
-                    <p class="lead d-sm-none">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sunt provident non nihil,
-                        voluptas deserunt?
+                    <p class="text-center lead">
+                        Providing creative and functional architectural solutions for diverse projects.
                     </p>
                 </div>
-                <div class="col-sm-5 ">
-                    <!-- <img class="d-none d-sm-block w-100" src="img/web.png" alt=""> -->
-                </div>
-            </div>
-            <div class="row featurette my-sm-3 my-lg-0 ">
-                <div class="col-sm-5 ">
-                   <!-- <img class="d-none d-sm-block w-100" src="img/web.png" alt=""> -->
-                </div>
-                <div class="col-sm-7 d-flex flex-column align-items-center">
-                    <h2 class="text-center text-md-start featurette-heading fw-bold lh-1">
-                        Building Architectural and structural design
+            
+                <div class="col-md-6 text-center  mt-4">
+                    <h2 class="text-center fw-bold lh-1">
+                        2.Structural Engineering:
                     </h2>
-                    <p class="lead d-sm-none">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sunt provident non nihil,
-                        voluptas deserunt?
+                    <p class="text-center lead">
+                        Conducting thorough structural analysis and design to ensure stability and safety.
                     </p>
                 </div>
-
-            </div>
-            <div class="row featurette my-sm-3 my-lg-0 ">
-                <div class="col-sm-7 d-flex flex-column align-items-center">
-                    <h2 class="text-center text-md-start featurette-heading fw-bold lh-1">
-                        Preparation of Engineering Cost Estimate
+            
+                <div class="col-md-6 text-center d-flex flex-column mt-4">
+                    <h2 class="text-center fw-bold lh-1">
+                        3.Project Planning:
                     </h2>
-                    <p class="lead d-sm-none">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sunt provident non nihil,
-                        voluptas deserunt?
+                    <p class="text-center lead">
+                        Developing comprehensive plans outlining project scope, timelines, and resource allocation.
                     </p>
                 </div>
-                <div class="col-sm-5 ">
-                 <!--   <img class="d-none d-sm-block w-100" src="img/web.png" alt=""> -->
-                </div>
-            </div>
-            <div class="row featurette my-sm-3 my-lg-0 ">
-                <div class="col-sm-5 ">
-                   <!-- <img class="d-none d-sm-block w-100" src="img/web.png" alt=""> -->
-                </div>
-                <div class="col-sm-7 d-flex flex-column align-items-center">
-                    <h2 class="text-center text-md-start featurette-heading fw-bold lh-1">
-                        Contract Administration and Supervision
+            
+                <div class="col-md-6 text-center d-flex flex-column mt-4">
+                    <h2 class="text-center fw-bold lh-1">
+                        4.Construction Management:
                     </h2>
-                    <p class="lead d-sm-none">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sunt provident non nihil,
-                        voluptas deserunt?
+                    <p class="text-center lead">
+                        Overseeing and coordinating construction activities to ensure adherence to plans and quality standards.
                     </p>
                 </div>
-
+                <div class="col-md-6 text-center d-flex flex-column mt-4">
+                    <h2 class="text-center fw-bold lh-1">
+                        5.Feasibility Studies:
+                    </h2>
+                    <p class="text-center lead">
+                        Assessing the viability of proposed projects, considering technical, financial, and regulatory aspects.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center d-flex flex-column mt-4">
+                    <h2 class="text-center fw-bold lh-1">
+                        6.Regulatory Compliance:
+                    </h2>
+                    <p class="text-center lead">
+                        Ensuring projects meet all relevant building codes, zoning regulations, and legal requirements.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center d-flex flex-column mt-4">
+                    <h2 class="text-center fw-bold lh-1">
+                        7.Budget Management:
+                    </h2>
+                    <p class="text-center lead">
+                        Implementing effective cost controls to keep projects within specified budget constraints.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center d-flex flex-column mt-4">
+                    <h2 class="text-center fw-bold lh-1">
+                        8.Client Collaboration:
+                    </h2>
+                    <p class="text-center lead">
+                        Engaging in continuous communication and collaboration with clients to meet their specific needs and expectations.
+                    </p>
+                </div>
             </div>
 
         </div>
+        <!-- Our Services -->
         
         <hr class="featurette-divider" />
         
 <div class="container-lg">
   <h1 class="fw-bolder text-center mb-4">Why You Choose Us</h1>
   <div class="row align-items-start justify-content-center">
-    <div class="col-5 border m-2 border-light rounded-5">
+    <div class="col-md-5 col-11 border m-2 border-light rounded-5">
       <h2 class="fw-bold text-center m-2">Honesty</h2>
                         <p class="text-start fw-light">
                           We strive to be reliable in the construction industry and build trust and confidence in our ability to anticipate and respond to the client needs and to what the contract urges on.
                         </p>
     </div>
   
-    <div class="col-5 border m-2 border-light rounded-5">
+    <div class="col-md-5 col-11  border m-2 border-light rounded-5">
       <h2 class="fw-bold text-center m-2">Quality</h2>
                         <p class="text-start fw-light">
                          Professional excellence: outstanding professionalism We offer service of super quality based on our accumulated, extensive and profound knowledge and experience.
                         </p>
     </div>
   
-    <div class="col-5 border pt-2 m-2 border-light rounded-5">
+    <div class="col-md-5 col-11  border pt-2 m-2 border-light rounded-5">
       <h2 class="fw-bold text-center m-2">Client centric</h2>
                         <p class="text-start fw-light">
                           We are proud of always thinking in terms of what is best for our clients offering solutions that are not only theoretical but workable.
                         </p>
     </div>
   
-    <div class="col-5 border pt-2 m-2 border-light rounded-5">
+    <div class="col-md-5 col-11  border pt-2 m-2 border-light rounded-5">
       <h2 class="fw-bold text-center m-2">Responsible</h2>
                         <p class="text-start fw-light">
                           We take responsibility for our action and hold our services accountable for the results and outcomes.
                         </p>
     </div>
   
+        <section id="Contact"></section>
 </div>
-        <section id="Contact">
             <hr class="featurette-divider" />
 
             <div class="container-lg marketing">
@@ -229,7 +246,7 @@
                     <h1 class="fw-light h3">OUR PROFESSIONALS</h1>
                     <h1 class="mb-5 fw-bold">Meet Our Teams</h1>
                     <div class="col-md-4 d-flex flex-column align-items-center">
-                        <img class="w-75" src="img/20230913_092925.png" alt="">
+                        <img class="w-75" src="img/20230913_092925.png" alt="Ahmed Hirpho">
                         <h2 class="mt-3 fw-bold">Ahmed Hirpho</h2>
                         <h2 class=" fw-normal">Architecture Engineer</h2>
                         <p>
@@ -238,7 +255,7 @@
                     </div>
 
                     <div class="col-md-4 d-flex flex-column align-items-center">
-                        <img class="w-75" src="img/20230913_092925.png" alt="">
+                        <img class="w-75" src="img/20230913_092925.png" alt="Oliad Ali">
                         <h2 class="mt-3 fw-bold">Oliad Ali</h2>
                         <h2 class=" fw-normal">Civil Engineer</h2>
                         <p>
@@ -247,7 +264,7 @@
                     </div>
 
                     <div class="col-md-4 d-flex flex-column align-items-center">
-                        <img class="w-75" src="img/20230913_092925.png" alt="">
+                        <img class="w-75" src="img/20230913_092925.png" alt="Jemal Abu">
                         <h2 class="mt-3 fw-bold">Jemal Abu</h2>
                         <h2 class=" fw-normal">Drafting</h2>
                         <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit"
@@ -256,35 +273,38 @@
 
                 </div>
             </div>
+            
            <hr class="featurette-divider" />
               
-            </div>
+           
 
             <div class="container-lg mx-auto text-center">
                 <h3 class="mx-5 mb-3">Contact Us</h3>
                 <a class="text-decoration-none me-4" href=""><img class="mx-lg-2 mx-2" width="20px"
-                        src="img/telegram-symbolic.svg" alt="">Woxe
+                        src="img/telegram-symbolic.svg" alt="Telegram">Woxe
                     Consulting</a>
                 <a class="text-decoration-none me-4" href=""><img class="mx-lg-2 mx-2" width="20px"
-                    src="img/facebook-symbolic.svg" alt="">Woxe
+                    src="img/facebook-symbolic.svg" alt="Facebook ">Woxe
                     Consulting</a>
                 <a class="text-decoration-none" href=""><img class=" mx-lg-2 mx-2" width="20px"
-                    src="img/twitter-symbolic.svg" alt="">Woxe
+                    src="img/twitter-symbolic.svg" alt="Twitter ">Woxe
                     Consulting</a>
             </div>
-        </section>
+            </div>
+        
 
         
 
-        <!-- FOOTER -->
+        <!-- footer -->
         <footer class="container mt-4">
-            <p class="float-end "><a class="text-decoration-none text-primary" href="#myCarousel">to top</a></p>
+            <p class="float-end "><a class="text-decoration-none text-primary" href="#Home">to top</a></p>
             <p>
                 &copy; 2024 Woxe Consulting Architect and Engineers, PLC.
             </p>
         </footer>
+        <!-- footer -->
     </main>
     <script src="bootstrap/bootstrap.bundle.js"></script>
 </body>
 
-</html>
+                    </html>
